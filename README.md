@@ -10,3 +10,5 @@ local Delay_Time = "0.1"
 
 
 print(Type_Of_Taget)
+ 
+ 
