@@ -10,5 +10,22 @@ local Delay_Time = "0.1"
 
 
 print(Type_Of_Taget)
+
+local GetingSkillArgumet = function(Arg1)
+    if Arg1 == "M_H" then
+        local Position;
+        if Type_Of_Taget == "Mouse" then
+            Position = game.Players.LocalPlayer:GetMouse().Hit;
+        elseif Type_Of_Taget == "Yourself" then
+            Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame;
+                    break;
+        end
+        if not Position then
+            Position = game.Players.LocalPlayer:GetMouse().Hit;
+        end
+        return  Position;
+    end    
+
+print(Position)
  
  
