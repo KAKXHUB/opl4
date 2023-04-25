@@ -30,9 +30,9 @@ local Global_V = {}
 --     Script_enabled = true
 -- }
 
-if not Global_V.Script_enabled then
-    return game.Players.LocalPlayer:Kick("Script was disabled.")
-end
+--if not Global_V.Script_enabled then
+--    return game.Players.LocalPlayer:Kick("Script was disabled.")
+--end
 local Ui_Tab = {};
 local Cache = {
     GlobalValue = {
