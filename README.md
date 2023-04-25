@@ -1726,7 +1726,7 @@ local LastAttackFunc = function(Obj)
         if isnetworkowner(Obj.HumanoidRootPart) then
             Obj.Humanoid.Health = 0
         end
-        if table.find(ListTools, Tool.Name) then
+        if IsGun then
             Tool.RemoteEvent:FireServer(CFrame.new(Obj.HumanoidRootPart.Position), Obj.HumanoidRootPart);
         else
             Tool:Activate()
