@@ -1746,9 +1746,11 @@ spawn(function()
                                 LastAttackFunc(v)
                             else
                                 if Cache.BringMonter.TypePosition == "X" then
-                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.Position + Vector3.new(0, 0, Cache.BringMonter.Inputdistance), v.HumanoidRootPart.Position)       
+                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.Position + Vector3.new(0, 0, Cache.BringMonter.Inputdistance), v.HumanoidRootPart.Position)
+                                    if Cache.Boolean.StartOneHit then v.Humanoid.Health = 0 end;        
                                 elseif Cache.BringMonter.TypePosition == "Y" then
                                     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.Position + Vector3.new(0, Cache.BringMonter.Inputdistance, 0), v.HumanoidRootPart.Position)
+                                    if Cache.Boolean.StartOneHit then v.Humanoid.Health = 0 end;
                                 end
                             end
                         end
