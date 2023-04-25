@@ -1716,9 +1716,11 @@ local LastAttackFunc = function(Obj)
     local OldKill = game:GetService("Workspace").UserData["User_"..game.Players.LocalPlayer.UserId].Data.Kills.Value
     repeat
         if Cache.BringMonter.TypePosition == "X" then
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Obj.HumanoidRootPart.Position + Vector3.new(0, 0, Cache.BringMonter.Inputdistance), Obj.HumanoidRootPart.Position)                
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Obj.HumanoidRootPart.Position + Vector3.new(0, 0, Cache.BringMonter.Inputdistance), Obj.HumanoidRootPart.Position)
+            if Cache.Boolean.StartOneHit then Obj.Humanoid.Health = 0 end;                 
         elseif Cache.BringMonter.TypePosition == "Y" then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Obj.HumanoidRootPart.Position + Vector3.new(0, Cache.BringMonter.Inputdistance, 0), Obj.HumanoidRootPart.Position)
+            if Cache.Boolean.StartOneHit then Obj.Humanoid.Health = 0 end;  
         end
         wait(0.1)
         if isnetworkowner(Obj.HumanoidRootPart) then
