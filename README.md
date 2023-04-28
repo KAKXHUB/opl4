@@ -1134,7 +1134,7 @@ end)
 
 Ui_Tab["Players"]:Toggle("Spam Skill", "", false, function(Value)
     Cache.Boolean.StartSpamSkill = Value
-    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTC"]
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCewddsfe"]
 end)
 
 
