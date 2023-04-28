@@ -1855,6 +1855,7 @@ local LastAttackFunc = function(Obj)
     repeat
         if Cache.BringMonter.TypePosition == "X" then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Obj.HumanoidRootPart.Position + Vector3.new(0, 0, Cache.BringMonter.Inputdistance), Obj.HumanoidRootPart.Position)
+             print(Cache.BringMonter.Inputdistance)
             if Cache.Boolean.StartOneHit then Obj.Humanoid.Health = 0 end;                 
         elseif Cache.BringMonter.TypePosition == "Y" then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Obj.HumanoidRootPart.Position + Vector3.new(0, Cache.BringMonter.Inputdistance, 0), Obj.HumanoidRootPart.Position)
