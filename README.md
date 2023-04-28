@@ -1609,17 +1609,51 @@ end
 
 CreateBringMonter("Lv1 Crab")
 CreateBringMonter("Lv2 Angry Bob")
+CreateBringMonter("Lv3 Crab")
+CreateBringMonter("Lv4 Boar")
+CreateBringMonter("Lv4 Crab")
 CreateBringMonter("Lv4 Freddy")
+CreateBringMonter("Lv5 Crab")
 CreateBringMonter("Lv9 Bandit")
+CreateBringMonter("Lv11 Boar")
 CreateBringMonter("Lv12 Thug")
+CreateBringMonter("Lv12 Boar")
+CreateBringMonter("Lv14 Boar")
+CreateBringMonter("Lv14 Bandit")
+CreateBringMonter("Lv15 Thug")
+CreateBringMonter("Lv15 Bandit")
+CreateBringMonter("Lv15 Boar")
+CreateBringMonter("Lv16 Boar")
+CreateBringMonter("Lv17 Thug")
 CreateBringMonter("Lv20 Thief")
 CreateBringMonter("Lv20 Gunslinger")
+CreateBringMonter("Lv22 Thug")
+CreateBringMonter("Lv22 Angry Bobby")
+CreateBringMonter("Lv23 Thug")
+CreateBringMonter("Lv24 Fred")
+CreateBringMonter("Lv24 Thug")
+CreateBringMonter("Lv24 Angry Bobbi")
 CreateBringMonter("Lv24 Gunslinger")
+CreateBringMonter("Lv28 Freyd")
+CreateBringMonter("Lv28 Fredde")
+CreateBringMonter("Lv28 Friedrich")
+CreateBringMonter("Lv29 Angry Bobber")
+CreateBringMonter("Lv29 Frued")
+CreateBringMonter("Lv30 Thug")
+CreateBringMonter("Lv32 Fredric")
+CreateBringMonter("Lv32 Thief")
+CreateBringMonter("Lv34 Freddi")
+CreateBringMonter("Lv35 Angry Bobb")
 CreateBringMonter("Lv36 Gunslinger")
 CreateBringMonter("Lv40 Cave Demon")
+CreateBringMonter("Lv40 Thug")
 CreateBringMonter("Lv42 Gunslinger")
 CreateBringMonter("Lv50 Gunslinger")
+CreateBringMonter("Lv186 Cave Demon")
+CreateBringMonter("Lv188 Cave Demon")
+CreateBringMonter("Lv198 Cave Demon")
 CreateBringMonter("Lv200 Vokun")
+CreateBringMonter("Lv219 Cave Demon")
 CreateBringMonter("Lv360 Bruno")
 CreateBringMonter("Lv440 Buster")
 CreateBringMonter("Lv500 Bucky")
@@ -1680,23 +1714,114 @@ local CreateTeleportMonter = function(name)
     end)
 end
 
-CreateTeleportMonter("Lv1 Crab")
-CreateTeleportMonter("Lv2 Angry Bob")
-CreateTeleportMonter("Lv4 Freddy")
-CreateTeleportMonter("Lv9 Bandit")
-CreateTeleportMonter("Lv12 Thug")
-CreateTeleportMonter("Lv20 Thief")
-CreateTeleportMonter("Lv20 Gunslinger")
-CreateTeleportMonter("Lv24 Gunslinger")
-CreateTeleportMonter("Lv36 Gunslinger")
-CreateTeleportMonter("Lv40 Cave Demon")
-CreateTeleportMonter("Lv42 Gunslinger")
-CreateTeleportMonter("Lv50 Gunslinger")
-CreateTeleportMonter("Lv200 Vokun")
-CreateTeleportMonter("Lv360 Bruno")
-CreateTeleportMonter("Lv440 Buster")
-CreateTeleportMonter("Lv500 Bucky")
-CreateTeleportMonter("Lv8000 Gunner Captain")
+CreateBringMonter("Lv1 Crab")
+CreateBringMonter("Lv2 Angry Bob")
+CreateBringMonter("Lv3 Crab")
+CreateBringMonter("Lv4 Boar")
+CreateBringMonter("Lv4 Crab")
+CreateBringMonter("Lv4 Freddy")
+CreateBringMonter("Lv5 Crab")
+CreateBringMonter("Lv9 Bandit")
+CreateBringMonter("Lv11 Boar")
+CreateBringMonter("Lv12 Thug")
+CreateBringMonter("Lv12 Boar")
+CreateBringMonter("Lv14 Boar")
+CreateBringMonter("Lv14 Bandit")
+CreateBringMonter("Lv15 Thug")
+CreateBringMonter("Lv15 Bandit")
+CreateBringMonter("Lv15 Boar")
+CreateBringMonter("Lv16 Boar")
+CreateBringMonter("Lv17 Thug")
+CreateBringMonter("Lv20 Thief")
+CreateBringMonter("Lv20 Gunslinger")
+CreateBringMonter("Lv22 Thug")
+CreateBringMonter("Lv22 Angry Bobby")
+CreateBringMonter("Lv23 Thug")
+CreateBringMonter("Lv24 Fred")
+CreateBringMonter("Lv24 Thug")
+CreateBringMonter("Lv24 Angry Bobbi")
+CreateBringMonter("Lv24 Gunslinger")
+CreateBringMonter("Lv28 Freyd")
+CreateBringMonter("Lv28 Fredde")
+CreateBringMonter("Lv28 Friedrich")
+CreateBringMonter("Lv29 Angry Bobber")
+CreateBringMonter("Lv29 Frued")
+CreateBringMonter("Lv30 Thug")
+CreateBringMonter("Lv32 Fredric")
+CreateBringMonter("Lv32 Thief")
+CreateBringMonter("Lv34 Freddi")
+CreateBringMonter("Lv35 Angry Bobb")
+CreateBringMonter("Lv36 Gunslinger")
+CreateBringMonter("Lv40 Cave Demon")
+CreateBringMonter("Lv40 Thug")
+CreateBringMonter("Lv42 Gunslinger")
+CreateBringMonter("Lv50 Gunslinger")
+CreateBringMonter("Lv186 Cave Demon")
+CreateBringMonter("Lv188 Cave Demon")
+CreateBringMonter("Lv198 Cave Demon")
+CreateBringMonter("Lv200 Vokun")
+CreateBringMonter("Lv219 Cave Demon")
+CreateBringMonter("Lv360 Bruno")
+CreateBringMonter("Lv440 Buster")
+CreateBringMonter("Lv500 Bucky")
+CreateBringMonter("Lv8000 Gunner Captain")
+
+---------------------
+
+--spawn(function()
+--    local function Attack(Obj)
+--        if not Cache.BringMonter.Inputmontername or Cache.BringMonter.Inputmontername == "" then return end;
+--        local ListTools = {"Slingshot", "Stars", "Crossbow", "Flintlock"};
+--        local Tool;
+--        repeat
+--            game.Players.LocalPlayer.Character.Humanoid:UnequipTools();
+--            for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+--                if not Tool and v.ClassName == "Tool" and string.match(string.lower(v.Name), string.lower(Cache.BringMonter.Inputmontername)) then
+--                    v.Parent = game.Players.LocalPlayer.Character;
+--                    Tool = v;
+--                    break;
+--               end
+--            end
+--            if not Cache.BringMonter.Inputmontername then return end;
+--            wait();
+--        until Tool;
+--        local TimeOut = 0;
+--        local OldKill = game:GetService("Workspace").UserData["User_" .. game.Players.LocalPlayer.UserId].Data.Kills.Value;
+--        repeat
+--            pcall(function()
+--                if table.find(ListTools, Tool.Name) then
+--                    Tool.RemoteEvent:FireServer(CFrame.new(Obj.HumanoidRootPart.Position), Obj.HumanoidRootPart);
+--                else
+--                   Tool:Activate();
+--                end
+--            end);
+--            TimeOut += 1;
+--            wait(0.1);
+--        until OldKill < game:GetService("Workspace").UserData["User_" .. game.Players.LocalPlayer.UserId].Data.Kills.Value or not Cache.Boolean.TeleportMonterGroup or TimeOut > 10;
+--    end
+--    while wait() do
+--        pcall(function()
+--            if not Cache.Boolean.TeleportMonterGroup or not IsSpawned() then return end;
+--            for _, Value in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+--                   if not Cache.Boolean.TeleportMonterGroup then return end;
+--                if Cache.Boolean.TeleportMonterGroup[Value.Name] and Value:FindFirstChild("HumanoidRootPart") and Value:FindFirstChild("Humanoid") and Value.Humanoid.Health > 0 then
+--                    if Cache.BringMonter.TypePosition == "X" then
+--                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Value.HumanoidRootPart.Position + Vector3.new(0, 0, Cache.BringMonter.Inputdistance), Value.HumanoidRootPart.Position);
+--                        if Cache.Boolean.StartOneHit then Value.Humanoid.Health = 0 end;
+--                       Attack(Value);
+--                    elseif Cache.BringMonter.TypePosition == "Y" then
+--                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Value.HumanoidRootPart.Position + Vector3.new(0, Cache.BringMonter.Inputdistance, 0), Value.HumanoidRootPart.Position);
+--                        if Cache.Boolean.StartOneHit then Value.Humanoid.Health = 0 end;
+--                        Attack(Value);
+--                    end
+--                end
+--            end
+--        end)
+--    end
+--end);
+
+---------------------
+
 
 local LastAttackFunc = function(Obj)
     local ListTools = {"Slingshot", "Stars", "Crossbow", "Flintlock"};
@@ -1735,6 +1860,7 @@ local LastAttackFunc = function(Obj)
         wait(0.1)
     until OldKill < game:GetService("Workspace").UserData["User_"..game.Players.LocalPlayer.UserId].Data.Kills.Value or Timer >= 10
 end
+    
 
 
 spawn(function()
@@ -2003,3 +2129,5 @@ Ui_Tab["Credit"]:Button("Copy","Copy This Link.", function()
     })
     Flux:Notification("Copy Done!", "Okay!")
 end)
+
+
