@@ -946,16 +946,6 @@ end)
 spawn(function()
     while wait(2) do
         pcall(function()
-            if Cache.Boolean.AutoSamQuest then
-                game.Workspace.Merchants.QuestMerchant.Clickable.Retum:FireServer()
-            end
-        end)
-    end
-end)
-
-spawn(function()
-    while wait(2) do
-        pcall(function()
             if Cache.Boolean.AutoGetMission and game:GetService("Workspace").UserData["User_"..game.Players.LocalPlayer.UserId].Data.MissionObjective.Value == "None" then
                 game.Workspace.Merchants.ExpertiseMerchant.Clickable.Retum:FireServer()
             end
@@ -996,13 +986,14 @@ spawn(function()
 end)
 
 spawn(function()
-    while wait() do
+    while wait(2) do
         pcall(function()
-            if Cache.Boolean.AutoSamQuest then return end;
-            game.Workspace.Merchants.QuestMerchant.Clickable.Retum:FireServer("Claim1");
+            if Cache.Boolean.AutoSamQuest then
+                game.Workspace.Merchants.QuestMerchant.Clickable.Retum:FireServer("Claim1");
+            end
         end)
     end
-end);
+end)
 
 spawn(function()
     while wait(0.1) do
