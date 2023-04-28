@@ -1580,7 +1580,7 @@ if not Cache.BringMonter.Inputdistance then
 end
 
 Ui_Tab["Bring Monter"]:Textbox("Distance", "", false, function(Value)
-    Cache.BringMonter.Inputdistance = string.lower(tostring(Value))
+    Cache.BringMonter.Inputdistance = tonumber(Value)
 end)
 
 --Ui_Tab["Bring Monter"]:Slider("Distance", "", -16, 16, 9,function(Value)
