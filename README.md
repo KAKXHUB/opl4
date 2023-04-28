@@ -1576,10 +1576,10 @@ Ui_Tab["Bring Monter"]:Line()
 Ui_Tab["Bring Monter"]:Label("⭐ Farming Only With Gun(?) ⭐")
 
 if not Cache.BringMonter.Inputdistance then
-    Cache.BringMonter.Inputdistance = 10
+    Cache.BringMonter.Inputdistance = 12
 end
 
-Ui_Tab["Bring Monter"]:Slider("Distance", "", -16, 16, 10,function(Value)
+Ui_Tab["Bring Monter"]:Slider("Distance", "", -16, 16, 12,function(Value)
     Cache.BringMonter.Inputdistance = tonumber(Value)
 end)
 
