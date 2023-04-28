@@ -240,9 +240,13 @@ end)
 if not Cache.Hunter.Inputdistance then
     Cache.Hunter.Inputdistance = 6
 end
-Ui_Tab["Hunter"]:Slider("Distance", "distance with taget.", -16, 16, 6,function(Value)
+Ui_Tab["Hunter"]:Textbox("Distance", "", false, function(Value)
     Cache.Hunter.Inputdistance = tonumber(Value)
 end)
+
+--Ui_Tab["Hunter"]:Slider("Distance", "distance with taget.", -16, 16, 6,function(Value)
+--    Cache.Hunter.Inputdistance = tonumber(Value)
+--end)
 
 Ui_Tab["Hunter"]:Textbox("Hit Box", "", false, function(Value)
     xpcall(function()
