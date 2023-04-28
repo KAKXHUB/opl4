@@ -5,7 +5,7 @@ setfflag("CrashUploadToBacktracePercentage", "0")
 setfflag("CrashUploadToBacktraceBlackholeToken", "")
 setfflag("CrashUploadToBacktraceWindowsPlayerToken", "")
 
-local Global_V = {}
+local Global_V = {} 
 -- pcall(function()
 --     local req = (syn and syn.request) or (http and http.request) or request;
 --     local GetDataFormServer = req({
