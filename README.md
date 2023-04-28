@@ -1579,7 +1579,7 @@ if not Cache.BringMonter.Inputdistance then
     Cache.BringMonter.Inputdistance = 6
 end
 
-Ui_Tab["Bring Monter"]:Slider("Distance", "", -16, 16, 6,function(Value)
+Ui_Tab["Bring Monter"]:Slider("Distance", "", -16, 16, 16,function(Value)
     Cache.BringMonter.Inputdistance = tonumber(Value)
 end)
 
