@@ -992,6 +992,15 @@ spawn(function()
 end)
 
 spawn(function()
+    while wait() do
+        pcall(function()
+            if Cache.Boolean.AutoSamQuest then return end;
+            game.Workspace.Merchants.QuestMerchant.Clickable.Retum:FireServer("Claim1");
+        end)
+    end
+end);
+
+spawn(function()
     while wait(0.1) do
         pcall(function()
             if Cache.Boolean.AutoCompassQuest then
