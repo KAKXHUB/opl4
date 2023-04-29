@@ -1134,7 +1134,46 @@ end)
 
 Ui_Tab["Players"]:Toggle("Spam Skill", "", false, function(Value)
     Cache.Boolean.StartSpamSkill = Value
+    if Cache.Player.SpamSkillFruit == Magma then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCmel"]
+elseif Cache.Player.SpamSkillFruit == Gas then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCtb"]
+elseif Cache.Player.SpamSkillFruit == Sand then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCaufn"]
+elseif Cache.Player.SpamSkillFruit == Dark then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCjebaj"]
+elseif Cache.Player.SpamSkillFruit == Chilly then
     Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCewddsfe"]
+elseif Cache.Player.SpamSkillFruit == Rumble then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCzyhf"]    
+elseif Cache.Player.SpamSkillFruit == Snow then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCqkxtn"]
+elseif Cache.Player.SpamSkillFruit == Light then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCrv"]
+elseif Cache.Player.SpamSkillFruit == String then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCjwbvx"]
+elseif Cache.Player.SpamSkillFruit == Flare then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCmgwcm"]
+elseif Cache.Player.SpamSkillFruit == Love then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCwxt"]
+elseif Cache.Player.SpamSkillFruit == Phoenix then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCytb"]
+elseif Cache.Player.SpamSkillFruit == Quake then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCebvc"]
+elseif Cache.Player.SpamSkillFruit == Candy then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCdhabvd"]
+elseif Cache.Player.SpamSkillFruit == Bomb then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCcpkghc"]
+elseif Cache.Player.SpamSkillFruit == Venom then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCiuew"]
+elseif Cache.Player.SpamSkillFruit == Rumble1 then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCwnuy"]
+elseif Cache.Player.SpamSkillFruit == Gravity then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCjh"]
+elseif Cache.Player.SpamSkillFruit == Plasma then
+    Cache.Player.FruitKeyArgumet = getsenv(game.Players.LocalPlayer.Character.Powers[Cache.Player.SpamSkillFruit])["VTCpwd"]
+end    
+
 end)
 
 
